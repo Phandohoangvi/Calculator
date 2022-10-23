@@ -43,6 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(36, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 29);
@@ -53,6 +54,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(36, 126);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 29);
@@ -63,6 +65,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(35, 173);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 29);
@@ -71,6 +74,7 @@
             // 
             // txtB
             // 
+            this.txtB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.txtB.Location = new System.Drawing.Point(132, 126);
             this.txtB.Name = "txtB";
             this.txtB.Size = new System.Drawing.Size(280, 22);
@@ -78,6 +82,7 @@
             // 
             // txtKetQua
             // 
+            this.txtKetQua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.txtKetQua.Location = new System.Drawing.Point(132, 180);
             this.txtKetQua.Name = "txtKetQua";
             this.txtKetQua.Size = new System.Drawing.Size(280, 22);
@@ -85,6 +90,7 @@
             // 
             // txtA
             // 
+            this.txtA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.txtA.Location = new System.Drawing.Point(132, 74);
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(280, 22);
@@ -92,6 +98,7 @@
             // 
             // buttonCong
             // 
+            this.buttonCong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.buttonCong.Location = new System.Drawing.Point(132, 237);
             this.buttonCong.Name = "buttonCong";
             this.buttonCong.Size = new System.Drawing.Size(82, 40);
@@ -104,6 +111,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label4.Location = new System.Drawing.Point(182, 20);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 29);
@@ -112,6 +120,7 @@
             // 
             // buttonTru
             // 
+            this.buttonTru.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.buttonTru.Location = new System.Drawing.Point(281, 237);
             this.buttonTru.Name = "buttonTru";
             this.buttonTru.Size = new System.Drawing.Size(82, 40);
@@ -136,6 +145,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
