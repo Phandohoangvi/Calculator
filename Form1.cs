@@ -19,10 +19,14 @@ namespace Calculator
 
         private void buttonCong_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(txtA.Text);
-            double b = double.Parse(txtB.Text);
-            double c = a + b;
-            txtKetQua.Text = c.ToString();
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
+            {
+                double a = double.Parse(txtA.Text);
+                double b = double.Parse(txtB.Text);
+                double c = a + b;
+                txtKetQua.Text = c.ToString();
+
+            }
         }
 
         private void buttonTru_Click(object sender, EventArgs e)
@@ -31,6 +35,11 @@ namespace Calculator
             double b = double.Parse(txtB.Text);
             double c = a - b;
             txtKetQua.Text = c.ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 
