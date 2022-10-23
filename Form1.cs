@@ -27,7 +27,7 @@ namespace Calculator
                 txtKetQua.Text = c.ToString();
 
             }
-            }
+        }
 
         private void buttonTru_Click(object sender, EventArgs e)
         {
